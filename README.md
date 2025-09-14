@@ -10,7 +10,6 @@ Este projeto tem como objetivo criar um sistema completo de **Cardápio Digital*
 
 ## 📁 Estrutura planejada do projeto
 
-
 ---
 
 ## 🎯 Objetivo Geral
@@ -47,11 +46,11 @@ Oferecer uma solução digital acessível para estabelecimentos gastronômicos e
 
 ## 🛠 Tecnologias utilizadas
 
-| Módulo        | Tecnologias                         |
-|---------------|--------------------------------------|
-| App Mobile    | React Native, Expo, React Navigation |
-| Painel Web    | React.js, Axios                     |
-| API           | Node.js, Express, CORS, JSON        |
+| Módulo     | Tecnologias                          |
+| ---------- | ------------------------------------ |
+| App Mobile | React Native, Expo, React Navigation |
+| Painel Web | React.js, Axios                      |
+| API        | Node.js, Express, CORS, JSON         |
 
 ---
 
@@ -68,11 +67,21 @@ Oferecer uma solução digital acessível para estabelecimentos gastronômicos e
 
 ```bash
 # Clone o projeto
-git clone https://github.com/seu-usuario/meu-cardapio-digital.git
-cd meu-cardapio-digital
+git clone https://github.com/lucassc98/Atividade-avaliativa-P1.git
+# Frontend
+cd cardapio-digital
+npm install
+npm start
+# Backend
+cd api-cardapio-digital
+npm install
+npm run dev
+
+
 
 # Iniciar o app mobile
 cd app
 npm install
 npx expo start
 
+```
