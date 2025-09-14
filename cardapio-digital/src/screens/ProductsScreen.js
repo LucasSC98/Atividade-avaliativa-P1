@@ -68,7 +68,7 @@ export default function ProductsScreen() {
         <Text style={styles.title}>Produtos</Text>
         <Button title="Recarregar" onPress={reload} />
       </View>
-
+      {/* coloquei a barra de pesquisa em uma nova View */}
       <View style={styles.searchBarWrapper}>
         <Searchbar value={search} onChange={setSearch} />
       </View>
